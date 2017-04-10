@@ -1,0 +1,4 @@
+[10-Apr-2017 07:04:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/ubuntu/workspace/laravel-todomvc/routes/web.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/laravel-todomvc/routes/web.php on line 14

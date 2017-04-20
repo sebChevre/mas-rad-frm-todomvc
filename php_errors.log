@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [20-Apr-2017 15:46:08 UTC] PHP Warning:  require(/home/ubuntu/workspace/laravel-todomvc/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/laravel-todomvc/bootstrap/autoload.php on line 17
 [20-Apr-2017 15:46:08 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/laravel-todomvc/bootstrap/../vendor/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/laravel-todomvc/bootstrap/autoload.php on line 17
 [20-Apr-2017 15:46:11 UTC] PHP Warning:  require(/home/ubuntu/workspace/laravel-todomvc/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/laravel-todomvc/bootstrap/autoload.php on line 17
@@ -16,3 +17,9 @@
 [20-Apr-2017 16:23:33 UTC] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Parse error: syntax error, unexpected ')', expecting '[' (View: /home/ubuntu/workspace/laravel-todomvc/resources/views/tasks/index.blade.php) in /home/ubuntu/workspace/laravel-todomvc/app/Http/Controllers/TasksController.php on line 0
 [20-Apr-2017 16:24:09 UTC] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Parse error: syntax error, unexpected ')', expecting '[' (View: /home/ubuntu/workspace/laravel-todomvc/resources/views/tasks/index.blade.php) in /home/ubuntu/workspace/laravel-todomvc/app/Http/Controllers/TasksController.php on line 0
 [20-Apr-2017 16:25:14 UTC] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Parse error: syntax error, unexpected ')', expecting '[' (View: /home/ubuntu/workspace/laravel-todomvc/resources/views/tasks/index.blade.php) in /home/ubuntu/workspace/laravel-todomvc/app/Http/Controllers/TasksController.php on line 0
+=======
+[10-Apr-2017 07:04:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/ubuntu/workspace/laravel-todomvc/routes/web.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/laravel-todomvc/routes/web.php on line 14
+>>>>>>> ba54378b70b70a7f49e5a6f70cc815a4a3dd166f

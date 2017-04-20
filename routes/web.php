@@ -15,6 +15,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+<<<<<<< HEAD
 Route::get('/tasks','TasksController@index');
 
 Route::get('/tasks/{id}','TasksController@show')->name('tasks.show');
+=======
+Route::get('tasks', function () {
+    return view('welcome.blade');
+});
+>>>>>>> ba54378b70b70a7f49e5a6f70cc815a4a3dd166f
